@@ -45,7 +45,7 @@ Press the green run button to execute the `main` method.
 The `.gradle` folder is created after the code compiles and runs.
 
 
-## Maven Directory Structure
+## Gradle Directory Structure
 
 A Gradle project has a
 [standard directory structure](https://docs.gradle.org/current/userguide/organizing_gradle_projects.html)
@@ -66,7 +66,7 @@ The following is a basic structure of a Gradle project:
 		└── settings.gradle	
 ```
 
-The structure of the `src` folder is similar to Maven's. Gradle does not use a `pom.xml` file
+The structure of the `src` folder is similar to Maven's. Gradle does not use a `pom.xml` file.
 Instead, `build.gradle` is the main configuration file for the project's build and dependencies.
 A Gradle project also should include `settings.gradle` to identify
 which projects are included in the build.
